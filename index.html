@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Help and privacy information for Before 3PM.">
+  <title>Before 3PM · Help and Privacy</title>
+  <style>
+    :root { color-scheme: light; --paper: #f7f7f2; --ink: #17291f; --green: #245e47; --line: #d9e2d8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.65 system-ui, sans-serif; }
+    main { max-width: 48rem; margin: auto; padding: 2.5rem clamp(1rem, 5vw, 3rem); }
+    header { padding-bottom: 1.5rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    h1 { font-size: clamp(2.3rem, 8vw, 3.7rem); margin: 0 0 .4rem; }
+    h2 { font-size: 1.75rem; margin: 0 0 .7rem; }
+    h3 { font-size: 1.16rem; margin-bottom: .5rem; }
+    nav { display: flex; flex-wrap: wrap; gap: .35rem 1rem; }
+    nav a { display: inline-flex; align-items: center; min-height: 2.75rem; }
+    a { color: var(--green); text-underline-offset: .2em; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+    article { background: white; border: 1px solid var(--line); border-radius: 1.2rem; margin-bottom: 1rem; padding: clamp(1rem, 4vw, 1.65rem); }
+    article p, ol { margin: .4rem 0 1rem; }
+    article p:last-child { margin-bottom: 0; }
+    ol { padding-left: 1.4rem; }
+    li + li { margin-top: .35rem; }
+    section[id], article[id] { scroll-margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Before 3PM</h1>
+      <p>Help and Privacy</p>
+      <nav aria-label="Languages and privacy">
+        <a href="#help-en" lang="en">English</a>
+        <a href="#help-hans" lang="zh-Hans">简体中文</a>
+        <a href="#help-hant" lang="zh-Hant">繁體中文</a>
+        <a href="#privacy">Privacy</a>
+      </nav>
+    </header>
+
+    <article id="help-en" lang="en" aria-labelledby="title-en">
+      <h2 id="title-en">Help</h2>
+      <ol>
+        <li>Choose the date and time of your next appointment. Enter how many minutes you need to prepare and travel, then tap Set appointment.</li>
+        <li>Tap a task to start its timer. If the task won’t fit, choose the shorter timer when available or skip it. If the appointment moves earlier, the app shortens or ends the timer.</li>
+        <li>Tap Enable reminders and allow notifications in iOS for preparation and departure. Set travel time to zero for an online appointment. Focus and notification settings affect alerts.</li>
+      </ol>
+      <h3>Presets and purchases</h3>
+      <p>Copy a code from the share card. In Settings, paste a BG1 code or choose a plain-text file containing it, preview, and tap Use preset. This updates defaults for new appointments. In Settings → Full access, you can restore purchases or unlock Pro once. The 30-day trial starts on first open and ends without an automatic charge. Existing records and the basic timer and reminders stay available.</p>
+      <section id="privacy" aria-labelledby="privacy-en">
+        <h3 id="privacy-en">Privacy policy</h3>
+        <p>Before 3PM does not collect data. Appointments, task presets, settings and history stay in the app on your iPhone. Access dates and purchase status are recorded in the device’s Keychain. The app has no account, ads, analytics or app server. Apple handles purchases and restoration through StoreKit.</p>
+        <p>Share cards and preset codes omit private appointment details. CSV export contains the task records you choose to export. The app passes the file to the sharing destination you choose. Local notifications rely on iOS and use generic messages. You can turn them off in the app or in iOS Settings. Removing the app removes its local appointment and task data.</p>
+        <p>Contact <a href="mailto:2522855586@qq.com">2522855586@qq.com</a> for help or privacy questions.</p>
+      </section>
+    </article>
+
+    <article id="help-hans" lang="zh-Hans" aria-labelledby="title-hans">
+      <h2 id="title-hans">使用帮助</h2>
+      <ol>
+        <li>选择下一场预约的日期和时间，填入准备和路上用时，再点「设置预约」。</li>
+        <li>点一件小事开始计时。时间不够时，可以用短版或跳过。预约提前时，计时会按新的准备时间截短或结束。</li>
+        <li>点「开启提醒」并允许系统通知，即可安排准备和出门提醒。线上预约可将路上用时设为 0。专注模式和系统通知设置会影响提醒。</li>
+      </ol>
+      <h3>预设和购买</h3>
+      <p>在分享卡中复制口令。在「设置」粘贴 BG1 口令或选择包含口令的纯文本文件，预览后点「使用预设」，只更新新预约的默认值。在「设置 → 高级功能」可以恢复购买或一次买断。试用从首次打开起算 30 天，到期不会自动扣费。已有记录、基础计时和提醒可继续使用。</p>
+      <section id="privacy-hans" aria-labelledby="privacy-title-hans">
+        <h3 id="privacy-title-hans">隐私政策</h3>
+        <p>预约前空档计时不收集数据。预约、小事、设置和历史记录保存在本机 App 内。试用日期和购买状态存于本机钥匙串。App 无账号、无广告、无统计、无自营服务器。购买与恢复由 Apple 的 StoreKit 处理。</p>
+        <p>分享卡和口令不包含私人预约详情。CSV 包含你选择导出的任务记录，并交给你选定的分享目标。本地通知由 iOS 处理，使用通用提醒文案，可在 App 或系统设置中关闭。删除 App 会移除其中的预约与小事数据。</p>
+        <p>使用或隐私问题请联系 <a href="mailto:2522855586@qq.com">2522855586@qq.com</a>。</p>
+      </section>
+    </article>
+
+    <article id="help-hant" lang="zh-Hant" aria-labelledby="title-hant">
+      <h2 id="title-hant">使用說明</h2>
+      <ol>
+        <li>選擇下一場預約的日期與時間，填入準備和路程時間，再點「設定預約」。</li>
+        <li>點一件小事開始計時。時間不夠時，可以用短版或跳過。預約提前時，計時會依新的準備時間縮短或結束。</li>
+        <li>點「開啟提醒」並允許系統通知，即可安排準備和出門提醒。線上預約可將路程時間設為 0。專注模式與系統通知設定會影響提醒。</li>
+      </ol>
+      <h3>預設與購買</h3>
+      <p>在分享卡中複製口令。在「設定」貼上 BG1 口令或選擇含口令的純文字檔，預覽後點「使用預設」，只更新新預約的預設值。在「設定 → 進階功能」可以回復購買或一次買斷。試用從首次開啟起算 30 天，到期不會自動扣款。已有紀錄、基本計時和提醒可以繼續使用。</p>
+      <section id="privacy-hant" aria-labelledby="privacy-title-hant">
+        <h3 id="privacy-title-hant">隱私權政策</h3>
+        <p>預約前空檔計時不蒐集資料。預約、小事、設定與歷史紀錄保存在本機 App 內。試用日期與購買狀態存於本機鑰匙圈。App 無帳號、無廣告、無統計、無自營伺服器。購買與回復由 Apple 的 StoreKit 處理。</p>
+        <p>分享卡和口令不含私人預約詳情。CSV 包含你選擇匯出的工作紀錄，並交給你選擇的分享目標。本機通知由 iOS 處理，使用通用提醒文案，可在 App 或系統設定中關閉。刪除 App 會移除其中的預約與小事資料。</p>
+        <p>使用或隱私問題請聯絡 <a href="mailto:2522855586@qq.com">2522855586@qq.com</a>。</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
